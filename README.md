@@ -2,7 +2,7 @@
 This repository contains a Jupyter Notebook that performs sentiment classification on e-commerce product reviews using a machine learning approach.
 
 🚀 **Overview**
-The project explores the relationship between customer review text and sentiment labels. It focuses on data preprocessing via label encoding and evaluates the performance of a linear regression baseline.
+The project explores the relationship between customer review text and sentiment labels. It focuses on data preprocessing via label encoding and Text Vectorization .it also evaluates the performance using linear regression and logistic regression.
 
 🛠️ **Tech Stack**
 Language: Python
@@ -23,11 +23,11 @@ label: Sentiment category (Positive, Neutral, Negative).
 ⚙️ **Workflow**
 Data Cleaning: Handled using Pandas and filtered warnings for a clean output.
 
-Preprocessing: - Utilized LabelEncoder to transform both review text and sentiment labels into numerical formats.
+Preprocessing: - Utilized LabelEncoder  and text Vectorization to transform both review text and sentiment labels into numerical formats.
 
 Modeling:
 
-Implemented linear_model.LinearRegression to predict sentiment scores.
+Implemented linear_model.LinearRegression and linear_model.LogisticRegression to predict sentiment scores.
 
 Evaluation:
 
